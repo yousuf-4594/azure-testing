@@ -1,0 +1,73 @@
+﻿@page
+@model K214594.Pages.IndexModel
+@{
+    ViewData["Title"] = "Introduction to Cloud Computing - Assignment 1";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        h1, h2, h3, h4 {
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .name {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style-type: none; /* Removes bullet points */
+            padding-left: 0; /* Removes default padding */
+        }
+        li {
+            margin: 10px 0; /* Adds spacing between list items */
+        }
+        a {
+            text-decoration: none; /* Removes underline */
+            color: #0066cc; /* Blue color for links */
+        }
+        a:hover {
+            text-decoration: underline; /* Underline on hover */
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="name">Yousuf Ahmed Siddiqui 4594</div>
+
+    <h1>Introduction to Cloud Computing</h1>
+
+    <h2>Assignment 1</h2>
+    <h3>Building a Basic Web App Using Azure App Service</h3>
+    <p><strong>Objective:</strong> In this assignment, you will create a simple web application hosted on Azure App Service. This project will help you gain hands-on experience with Azure App Service, focusing on web deployment, configuration, and management without using any additional Azure services.</p>
+    
+    <h3>Content Overview:</h3>
+    <ul>
+        <li><a asp-page="/CloudBenefits">A page showing Introduction and benefits of cloud computing</a></li>
+        <li><a asp-page="/CloudModels">A page discussing cloud computing models</a></li>
+        <li><a asp-page="/CloudEvolution">A page discussing the Evolution of cloud computing</a></li>
+    </ul>
+
+</div>
+
+</body>
+</html>
